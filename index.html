@@ -641,6 +641,26 @@
       color:#475569;
       line-height:1.75;
     }
+
+
+    .data-scope-note {
+      margin:18px 0 0;
+      padding:13px 15px;
+      border-radius:16px;
+      background:#f8fafc;
+      border:1px dashed #cbd5e1;
+      color:#475569;
+      font-size:13px;
+      line-height:1.7;
+    }
+    .data-scope-note strong {
+      color:#334155;
+      margin-right:2px;
+    }
+    .first-page-bottom-note {
+      margin-top:24px;
+      margin-bottom:34px;
+    }
 </style>
 </head>
 <body>
@@ -657,7 +677,7 @@
 <h1>中央區地鐵各站進出人數 2015 ~ 2025</h1>
 <p>
         本頁比較東京都中央區主要地鐵站在 2015 年到 2025 年的每日平均進出站人數，
-        並將站區特色簡化為「觀光、商務、混合」三類，方便後續與各國赴日旅客人流資料搭配分析。
+        並將站區周邊機能簡化為「觀光型、商務型、混合型」三類，方便後續與各國赴日旅客人流資料搭配分析。
       </p>
 </header>
 <section id="trend">
@@ -677,11 +697,12 @@
 <rect fill="#144b7d" height="12" rx="3" width="12" x="888" y="32"></rect><text class="legend-text" x="908" y="42">銀座</text><rect fill="#0f766e" height="12" rx="3" width="12" x="888" y="62"></rect><text class="legend-text" x="908" y="72">日本橋</text><rect fill="#f59e0b" height="12" rx="3" width="12" x="888" y="92"></rect><text class="legend-text" x="908" y="102">三越前</text><rect fill="#8b5cf6" height="12" rx="3" width="12" x="888" y="122"></rect><text class="legend-text" x="908" y="132">茅場町</text><rect fill="#dc2626" height="12" rx="3" width="12" x="888" y="152"></rect><text class="legend-text" x="908" y="162">馬喰橫山</text><rect fill="#64748b" height="12" rx="3" width="12" x="888" y="182"></rect><text class="legend-text" x="908" y="192">八丁堀</text>
 </svg>
 </div>
+
 </section>
 <section id="station-type-method">
 <div class="section-title">
-<h2>站區特色分類方式</h2>
-<p>此分類用來說明地鐵站周邊主要功能，不代表每位進出站旅客的實際目的。</p>
+<h2>站區周邊機能分類方式</h2>
+<p>此分類用來說明地鐵站周邊主要機能，不代表每位進出站乘客的實際目的。</p>
 </div>
 <div class="method-card">
 <div class="method-lead">
@@ -689,11 +710,11 @@
 <p>
         本報告以各地鐵站主要出入口為中心，觀察其周邊約 <strong>1 公里範圍</strong>
         （約步行 10～15 分鐘）內的土地使用、商業設施、辦公機能、觀光資源、生活機能與交通轉乘功能，
-        再將站區特色簡化為「觀光、商務、混合」三類。
+        再將站區周邊機能簡化為「觀光型、商務型、混合型」三類。此分類描述的是站點周邊機能，不代表實際進出站乘客的個別目的。
       </p>
 <p>
-        需要注意的是，地鐵進出人數只能代表人流規模，不能直接判斷旅客身分。
-        因此這裡的站區特色是根據「周邊環境功能」進行分類，而不是直接認定進出站者都是觀光客或商務客。
+        需要注意的是，地鐵進出人數只能代表人流規模，不能直接判斷乘客身分或移動目的。
+        因此這裡的站區周邊機能是根據「周邊環境功能」進行分類，而不是直接認定進出站者具有觀光或商務目的。
       </p>
 </div>
 <div class="method-rule">
@@ -714,7 +735,7 @@
 </thead>
 <tbody>
 <tr>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td>
                 觀光消費機能占比 <strong>50% 以上</strong>，且高於商務辦公機能至少 <strong>10 個百分點</strong>。
               </td>
@@ -723,7 +744,7 @@
               </td>
 </tr>
 <tr>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td>
                 商務辦公機能占比 <strong>50% 以上</strong>，且高於觀光消費機能至少 <strong>10 個百分點</strong>。
               </td>
@@ -732,7 +753,7 @@
               </td>
 </tr>
 <tr>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td>
                 沒有單一機能占比達 <strong>50% 以上</strong>，或觀光與商務差距小於 <strong>10 個百分點</strong>；
                 另外，若生活住宅、轉乘與在地商業機能占比達 <strong>30% 以上</strong>，也歸為混合。
@@ -751,43 +772,42 @@
 </div>
 <div class="method-grid">
 <article class="method-type">
-<h3><span class="cat tourism">觀光</span></h3>
+<h3><span class="cat tourism">觀光型</span></h3>
 <p>
           站點周邊 1 公里內，觀光消費相關機能占比達 50% 以上，且明顯高於商務機能。
         </p>
 <ul>
 <li>百貨公司、商店街、精品店、餐飲集中區明顯。</li>
 <li>周邊具有觀光景點、劇場、市場或城市觀光吸引力。</li>
-<li>人流較容易受到觀光、購物、餐飲與假日休閒需求影響。</li>
+<li>周邊人流較容易受到購物、餐飲、觀光與假日休閒需求影響。</li>
 </ul>
 <p class="method-example">例：銀座、東銀座、築地、築地市場、銀座一丁目。</p>
 </article>
 <article class="method-type">
-<h3><span class="cat business">商務</span></h3>
+<h3><span class="cat business">商務型</span></h3>
 <p>
           站點周邊 1 公里內，商務辦公相關機能占比達 50% 以上，且明顯高於觀光機能。
         </p>
 <ul>
 <li>辦公大樓、企業據點、銀行、金融或商業服務機能集中。</li>
-<li>人流較容易受到上班、會議、企業拜訪與工作日移動影響。</li>
+<li>周邊人流較容易受到上班、會議、企業拜訪與工作日移動影響。</li>
 <li>適合作為商務飯店、短期出差住宿需求的輔助判斷依據。</li>
 </ul>
 <p class="method-example">例：日本橋、三越前、茅場町、八丁堀、京橋、小傳馬町、寶町。</p>
 </article>
 <article class="method-type">
-<h3><span class="cat mixed">混合</span></h3>
+<h3><span class="cat mixed">混合型</span></h3>
 <p>
           站點周邊 1 公里內，沒有單一機能占比超過 50%，或生活、轉乘、住宅與商業機能並存。
         </p>
 <ul>
 <li>生活機能、住宅區、辦公機能與在地商業並存。</li>
-<li>人流來源較多元，可能包含通勤、居民生活、轉乘、觀光與商務拜訪。</li>
+<li>周邊人流來源較多元，可能包含通勤、居民生活、轉乘、購物餐飲與企業拜訪。</li>
 <li>適合觀察中價位飯店、長住型住宿或服務型公寓需求。</li>
 </ul>
 <p class="method-example">例：人形町、水天宮前、東日本橋、馬喰橫山、月島、勝鬨、濱町。</p>
 </article>
 </div>
-
 </div>
 </section><section id="table">
 <div class="section-title"><div class="title-left"><h2>中央區各站 2015 vs 2025 進出人數比較表</h2><div class="title-source-row"><a class="src-badge" href="https://www.toukei.metro.tokyo.lg.jp/tnenkan/2015/tn15q3i004.htm" rel="noopener" target="_blank">2015來源</a> <a class="src-badge" href="https://www.tokyometro.jp/corporate/enterprise/passenger_rail/transportation/passengers/index.html" rel="noopener" target="_blank">2025 東京地下鐵</a> <a class="src-badge" href="https://www.kotsu.metro.tokyo.jp/subway/kanren/passengers.html" rel="noopener" target="_blank">都營地下鐵來源</a></div></div>
@@ -805,7 +825,7 @@
 <th>增減</th>
 <th>變化率</th>
 <th>2025規模</th>
-<th>站區特色</th>
+<th>站區周邊機能</th>
 </tr>
 </thead>
 <tbody>
@@ -818,7 +838,7 @@
 <td class="num neg">-11,307</td>
 <td class="num neg">-4.6%</td>
 <td><div class="track"><span style="width:100.00%"></span></div></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 </tr>
 <tr>
 <td class="rank">#2</td>
@@ -829,7 +849,7 @@
 <td class="num pos">+7,230</td>
 <td class="num pos">+4.1%</td>
 <td><div class="track"><span style="width:77.80%"></span></div></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 </tr>
 <tr>
 <td class="rank">#3</td>
@@ -840,7 +860,7 @@
 <td class="num neg">-4,474</td>
 <td class="num neg">-3.6%</td>
 <td><div class="track"><span style="width:51.74%"></span></div></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 </tr>
 <tr>
 <td class="rank">#4</td>
@@ -851,7 +871,7 @@
 <td class="num neg">-8,340</td>
 <td class="num neg">-6.7%</td>
 <td><div class="track"><span style="width:49.54%"></span></div></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 </tr>
 <tr>
 <td class="rank">#5</td>
@@ -862,7 +882,7 @@
 <td class="num pos">+2,217</td>
 <td class="num pos">+2.0%</td>
 <td><div class="track"><span style="width:47.98%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 <tr>
 <td class="rank">#6</td>
@@ -873,7 +893,7 @@
 <td class="num neg">-2,140</td>
 <td class="num neg">-2.0%</td>
 <td><div class="track"><span style="width:44.64%"></span></div></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 </tr>
 <tr>
 <td class="rank">#7</td>
@@ -884,7 +904,7 @@
 <td class="num pos">+2,682</td>
 <td class="num pos">+2.9%</td>
 <td><div class="track"><span style="width:40.48%"></span></div></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 </tr>
 <tr>
 <td class="rank">#8</td>
@@ -895,7 +915,7 @@
 <td class="num neg">-7,232</td>
 <td class="num neg">-7.3%</td>
 <td><div class="track"><span style="width:38.99%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 <tr>
 <td class="rank">#9</td>
@@ -906,7 +926,7 @@
 <td class="num pos">+9,004</td>
 <td class="num pos">+11.8%</td>
 <td><div class="track"><span style="width:36.56%"></span></div></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 </tr>
 <tr>
 <td class="rank">#10</td>
@@ -917,7 +937,7 @@
 <td class="num pos">+1,023</td>
 <td class="num pos">+1.2%</td>
 <td><div class="track"><span style="width:36.50%"></span></div></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 </tr>
 <tr>
 <td class="rank">#11</td>
@@ -928,7 +948,7 @@
 <td class="num pos">+485</td>
 <td class="num pos">+0.6%</td>
 <td><div class="track"><span style="width:34.52%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 <tr>
 <td class="rank">#12</td>
@@ -939,7 +959,7 @@
 <td class="num pos">+1,072</td>
 <td class="num pos">+1.4%</td>
 <td><div class="track"><span style="width:34.14%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 <tr>
 <td class="rank">#13</td>
@@ -950,7 +970,7 @@
 <td class="num pos">+915</td>
 <td class="num pos">+1.3%</td>
 <td><div class="track"><span style="width:30.50%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 <tr>
 <td class="rank">#14</td>
@@ -961,7 +981,7 @@
 <td class="num pos">+242</td>
 <td class="num pos">+0.4%</td>
 <td><div class="track"><span style="width:29.65%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 <tr>
 <td class="rank">#15</td>
@@ -972,7 +992,7 @@
 <td class="num neg">-7,629</td>
 <td class="num neg">-10.4%</td>
 <td><div class="track"><span style="width:28.00%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 <tr>
 <td class="rank">#16</td>
@@ -983,7 +1003,7 @@
 <td class="num pos">+5,394</td>
 <td class="num pos">+9.9%</td>
 <td><div class="track"><span style="width:25.62%"></span></div></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 </tr>
 <tr>
 <td class="rank">#17</td>
@@ -994,7 +1014,7 @@
 <td class="num neg">-14,220</td>
 <td class="num neg">-19.2%</td>
 <td><div class="track"><span style="width:25.57%"></span></div></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 </tr>
 <tr>
 <td class="rank">#18</td>
@@ -1005,7 +1025,7 @@
 <td class="num pos">+4,891</td>
 <td class="num pos">+9.8%</td>
 <td><div class="track"><span style="width:23.38%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 <tr>
 <td class="rank">#19</td>
@@ -1016,7 +1036,7 @@
 <td class="num neg">-3,177</td>
 <td class="num neg">-7.9%</td>
 <td><div class="track"><span style="width:15.82%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 <tr>
 <td class="rank">#20</td>
@@ -1027,7 +1047,7 @@
 <td class="num neg">-2,081</td>
 <td class="num neg">-5.4%</td>
 <td><div class="track"><span style="width:15.45%"></span></div></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 </tr>
 <tr>
 <td class="rank">#21</td>
@@ -1038,7 +1058,7 @@
 <td class="num neg">-2,003</td>
 <td class="num neg">-5.5%</td>
 <td><div class="track"><span style="width:14.84%"></span></div></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 </tr>
 <tr>
 <td class="rank">#22</td>
@@ -1049,7 +1069,7 @@
 <td class="num pos">+4,881</td>
 <td class="num pos">+18.7%</td>
 <td><div class="track"><span style="width:13.26%"></span></div></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 </tr>
 <tr>
 <td class="rank">#23</td>
@@ -1060,7 +1080,7 @@
 <td class="num neg">-9,719</td>
 <td class="num neg">-29.5%</td>
 <td><div class="track"><span style="width:9.95%"></span></div></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 </tr>
 <tr>
 <td class="rank">#24</td>
@@ -1071,15 +1091,17 @@
 <td class="num pos">+52</td>
 <td class="num pos">+0.2%</td>
 <td><div class="track"><span style="width:9.17%"></span></div></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 </tr>
 </tbody>
 </table>
 </div>
+
 </section>
 <section id="footer-summary">
-<div class="section-title"><div class="title-left"><h2>整體比較與觀光 vs 商務站</h2><div class="title-source-row"><a class="src-badge" href="https://www.toukei.metro.tokyo.lg.jp/tnenkan/2015/tn15q3i004.htm" rel="noopener" target="_blank">2015來源</a> <a class="src-badge" href="https://www.tokyometro.jp/corporate/enterprise/passenger_rail/transportation/passengers/index.html" rel="noopener" target="_blank">2025 東京地下鐵</a> <a class="src-badge" href="https://www.kotsu.metro.tokyo.jp/subway/kanren/passengers.html" rel="noopener" target="_blank">都營地下鐵來源</a> <a class="src-badge" href="https://www.tokyometro.jp/corporate/enterprise/passenger_rail/transportation/passengers/2024.html" rel="noopener" target="_blank">2024 東京地下鐵</a><a class="src-badge" href="https://www.tokyometro.jp/corporate/enterprise/passenger_rail/transportation/passengers/2023.html" rel="noopener" target="_blank">2023 東京地下鐵</a></div></div>
+<div class="section-title"><div class="title-left"><h2>整體比較與觀光型 vs 商務型</h2><div class="title-source-row"><a class="src-badge" href="https://www.toukei.metro.tokyo.lg.jp/tnenkan/2015/tn15q3i004.htm" rel="noopener" target="_blank">2015來源</a> <a class="src-badge" href="https://www.tokyometro.jp/corporate/enterprise/passenger_rail/transportation/passengers/index.html" rel="noopener" target="_blank">2025 東京地下鐵</a> <a class="src-badge" href="https://www.kotsu.metro.tokyo.jp/subway/kanren/passengers.html" rel="noopener" target="_blank">都營地下鐵來源</a> <a class="src-badge" href="https://www.tokyometro.jp/corporate/enterprise/passenger_rail/transportation/passengers/2024.html" rel="noopener" target="_blank">2024 東京地下鐵</a><a class="src-badge" href="https://www.tokyometro.jp/corporate/enterprise/passenger_rail/transportation/passengers/2023.html" rel="noopener" target="_blank">2023 東京地下鐵</a></div></div>
 </div>
+
 <div class="period-block">
 <div class="period-title">
 <h3>2015 vs 2025 整體進出人數比較</h3>
@@ -1124,7 +1146,7 @@
 </div>
 <div class="type-grid">
 <article class="type-card">
-<h3><span class="cat tourism">觀光</span></h3>
+<h3><span class="cat tourism">觀光型</span></h3>
 <div class="type-bars">
 <div class="type-row">
 <strong>2015</strong>
@@ -1141,7 +1163,7 @@
 <small>6 個站點，2025平均每站 87,097 人／日</small>
 </article>
 <article class="type-card">
-<h3><span class="cat business">商務</span></h3>
+<h3><span class="cat business">商務型</span></h3>
 <div class="type-bars">
 <div class="type-row">
 <strong>2015</strong>
@@ -1158,7 +1180,7 @@
 <small>8 個站點，2025平均每站 93,129 人／日</small>
 </article>
 <article class="type-card">
-<h3><span class="cat mixed">混合</span></h3>
+<h3><span class="cat mixed">混合型</span></h3>
 <div class="type-bars">
 <div class="type-row">
 <strong>2015</strong>
@@ -1179,7 +1201,7 @@
 <table>
 <thead>
 <tr>
-<th>站區類型</th>
+<th>站區周邊機能</th>
 <th>站點數</th>
 <th>2015合計</th>
 <th>2025合計</th>
@@ -1191,7 +1213,7 @@
 </thead>
 <tbody>
 <tr>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">6</td>
 <td class="num">549,806</td>
 <td class="num">522,584</td>
@@ -1201,7 +1223,7 @@
 <td class="num">87,097</td>
 </tr>
 <tr>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">8</td>
 <td class="num">741,882</td>
 <td class="num">745,034</td>
@@ -1211,7 +1233,7 @@
 <td class="num">93,129</td>
 </tr>
 <tr>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">10</td>
 <td class="num">691,506</td>
 <td class="num">683,342</td>
@@ -1229,7 +1251,7 @@
 <tr>
 <th>2025排名</th>
 <th>車站</th>
-<th>站區特色</th>
+<th>站區周邊機能</th>
 <th>2015年</th>
 <th>2025年</th>
 <th>增減</th>
@@ -1241,7 +1263,7 @@
 <tr>
 <td class="rank">#1</td>
 <td><strong>銀座</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">245,208</td>
 <td class="num">233,901</td>
 <td class="num neg">-11,307</td>
@@ -1251,7 +1273,7 @@
 <tr>
 <td class="rank">#2</td>
 <td><strong>日本橋</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">174,752</td>
 <td class="num">181,982</td>
 <td class="num pos">+7,230</td>
@@ -1261,7 +1283,7 @@
 <tr>
 <td class="rank">#3</td>
 <td><strong>三越前</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">125,491</td>
 <td class="num">121,017</td>
 <td class="num neg">-4,474</td>
@@ -1271,7 +1293,7 @@
 <tr>
 <td class="rank">#4</td>
 <td><strong>茅場町</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">124,210</td>
 <td class="num">115,870</td>
 <td class="num neg">-8,340</td>
@@ -1281,7 +1303,7 @@
 <tr>
 <td class="rank">#5</td>
 <td><strong>馬喰橫山</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">110,016</td>
 <td class="num">112,233</td>
 <td class="num pos">+2,217</td>
@@ -1291,7 +1313,7 @@
 <tr>
 <td class="rank">#6</td>
 <td><strong>八丁堀</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">106,551</td>
 <td class="num">104,411</td>
 <td class="num neg">-2,140</td>
@@ -1301,7 +1323,7 @@
 <tr>
 <td class="rank">#7</td>
 <td><strong>日本橋</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">91,997</td>
 <td class="num">94,679</td>
 <td class="num pos">+2,682</td>
@@ -1311,7 +1333,7 @@
 <tr>
 <td class="rank">#8</td>
 <td><strong>勝どき</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">98,421</td>
 <td class="num">91,189</td>
 <td class="num neg">-7,232</td>
@@ -1321,7 +1343,7 @@
 <tr>
 <td class="rank">#9</td>
 <td><strong>東銀座</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">76,505</td>
 <td class="num">85,509</td>
 <td class="num pos">+9,004</td>
@@ -1331,7 +1353,7 @@
 <tr>
 <td class="rank">#10</td>
 <td><strong>東銀座</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">84,356</td>
 <td class="num">85,379</td>
 <td class="num pos">+1,023</td>
@@ -1341,7 +1363,7 @@
 <tr>
 <td class="rank">#11</td>
 <td><strong>人形町</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">80,257</td>
 <td class="num">80,742</td>
 <td class="num pos">+485</td>
@@ -1351,7 +1373,7 @@
 <tr>
 <td class="rank">#12</td>
 <td><strong>東日本橋</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">78,785</td>
 <td class="num">79,857</td>
 <td class="num pos">+1,072</td>
@@ -1361,7 +1383,7 @@
 <tr>
 <td class="rank">#13</td>
 <td><strong>月島</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">70,414</td>
 <td class="num">71,329</td>
 <td class="num pos">+915</td>
@@ -1371,7 +1393,7 @@
 <tr>
 <td class="rank">#14</td>
 <td><strong>月島</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">69,120</td>
 <td class="num">69,362</td>
 <td class="num pos">+242</td>
@@ -1381,7 +1403,7 @@
 <tr>
 <td class="rank">#15</td>
 <td><strong>水天宮前</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">73,116</td>
 <td class="num">65,487</td>
 <td class="num neg">-7,629</td>
@@ -1391,7 +1413,7 @@
 <tr>
 <td class="rank">#16</td>
 <td><strong>京橋</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">54,526</td>
 <td class="num">59,920</td>
 <td class="num pos">+5,394</td>
@@ -1401,7 +1423,7 @@
 <tr>
 <td class="rank">#17</td>
 <td><strong>築地</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">74,029</td>
 <td class="num">59,809</td>
 <td class="num neg">-14,220</td>
@@ -1411,7 +1433,7 @@
 <tr>
 <td class="rank">#18</td>
 <td><strong>人形町</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">49,799</td>
 <td class="num">54,690</td>
 <td class="num pos">+4,891</td>
@@ -1421,7 +1443,7 @@
 <tr>
 <td class="rank">#19</td>
 <td><strong>新富町</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">40,183</td>
 <td class="num">37,006</td>
 <td class="num neg">-3,177</td>
@@ -1431,7 +1453,7 @@
 <tr>
 <td class="rank">#20</td>
 <td><strong>小傳馬町</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">38,214</td>
 <td class="num">36,133</td>
 <td class="num neg">-2,081</td>
@@ -1441,7 +1463,7 @@
 <tr>
 <td class="rank">#21</td>
 <td><strong>銀座一丁目</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">36,708</td>
 <td class="num">34,705</td>
 <td class="num neg">-2,003</td>
@@ -1451,7 +1473,7 @@
 <tr>
 <td class="rank">#22</td>
 <td><strong>寶町</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">26,141</td>
 <td class="num">31,022</td>
 <td class="num pos">+4,881</td>
@@ -1461,7 +1483,7 @@
 <tr>
 <td class="rank">#23</td>
 <td><strong>築地市場</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">33,000</td>
 <td class="num">23,281</td>
 <td class="num neg">-9,719</td>
@@ -1471,7 +1493,7 @@
 <tr>
 <td class="rank">#24</td>
 <td><strong>濱町</strong><span class="sub">都營地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">21,395</td>
 <td class="num">21,447</td>
 <td class="num pos">+52</td>
@@ -1529,13 +1551,13 @@
 </article>
 </div>
 <div class="chart-card">
-<h3>2023～2025 整體與站區類型趨勢折線圖</h3>
-<p class="desc">單位：人／日。藍線為整體合計，橘線為觀光站、綠線為商務站、紫線為混合站。範圍為中央區內東京地下鐵車站。</p>
+<h3>2023～2025 整體與站區周邊機能趨勢折線圖</h3>
+<p class="desc">單位：人／日。藍線為整體合計，橘線為觀光型、綠線為商務型、紫線為混合型。範圍為中央區內東京地下鐵車站。</p>
 <svg aria-label="2023至2025年中央區東京地下鐵車站人流趨勢折線圖" class="line-chart" role="img" viewbox="0 0 1040 420"><rect fill="#fff" height="420" rx="24" width="1040" x="0" y="0"></rect><line class="grid" x1="72" x2="850" y1="364.0" y2="364.0"></line><text class="axis-label" text-anchor="end" x="62" y="368.0">0k</text><line class="grid" x1="72" x2="850" y1="299.6" y2="299.6"></line><text class="axis-label" text-anchor="end" x="62" y="303.6">260k</text><line class="grid" x1="72" x2="850" y1="235.2" y2="235.2"></line><text class="axis-label" text-anchor="end" x="62" y="239.2">520k</text><line class="grid" x1="72" x2="850" y1="170.8" y2="170.8"></line><text class="axis-label" text-anchor="end" x="62" y="174.8">780k</text><line class="grid" x1="72" x2="850" y1="106.4" y2="106.4"></line><text class="axis-label" text-anchor="end" x="62" y="110.4">1040k</text><line class="grid" x1="72" x2="850" y1="42.0" y2="42.0"></line><text class="axis-label" text-anchor="end" x="62" y="46.0">1300k</text><line class="vgrid" x1="72.0" x2="72.0" y1="42" y2="364"></line><text class="axis-label" text-anchor="middle" x="72.0" y="402">2023</text><line class="vgrid" x1="461.0" x2="461.0" y1="42" y2="364"></line><text class="axis-label" text-anchor="middle" x="461.0" y="402">2024</text><line class="vgrid" x1="850.0" x2="850.0" y1="42" y2="364"></line><text class="axis-label" text-anchor="middle" x="850.0" y="402">2025</text><path d="M72.0,70.3 L461.0,52.5 L850.0,45.0" fill="none" stroke="#144b7d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path><circle cx="72.0" cy="70.3" fill="#144b7d" r="4"><title>整體 2023：1,185,923人</title></circle><circle cx="461.0" cy="52.5" fill="#144b7d" r="4"><title>整體 2024：1,257,763人</title></circle><circle cx="850.0" cy="45.0" fill="#144b7d" r="4"><title>整體 2025：1,287,691人</title></circle><rect fill="#144b7d" height="12" rx="3" width="12" x="870" y="24"></rect><text class="legend-text" x="890" y="34">整體</text><path d="M72.0,268.7 L461.0,262.7 L850.0,261.5" fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path><circle cx="72.0" cy="268.7" fill="#f59e0b" r="4"><title>觀光 2023：384,865人</title></circle><circle cx="461.0" cy="262.7" fill="#f59e0b" r="4"><title>觀光 2024：408,948人</title></circle><circle cx="850.0" cy="261.5" fill="#f59e0b" r="4"><title>觀光 2025：413,794人</title></circle><rect fill="#f59e0b" height="12" rx="3" width="12" x="870" y="54"></rect><text class="legend-text" x="890" y="64">觀光</text><path d="M72.0,224.2 L461.0,216.1 L850.0,210.6" fill="none" stroke="#0f766e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path><circle cx="72.0" cy="224.2" fill="#0f766e" r="4"><title>商務 2023：564,494人</title></circle><circle cx="461.0" cy="216.1" fill="#0f766e" r="4"><title>商務 2024：597,234人</title></circle><circle cx="850.0" cy="210.6" fill="#0f766e" r="4"><title>商務 2025：619,333人</title></circle><rect fill="#0f766e" height="12" rx="3" width="12" x="870" y="84"></rect><text class="legend-text" x="890" y="94">商務</text><path d="M72.0,305.4 L461.0,301.7 L850.0,300.9" fill="none" stroke="#8b5cf6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path><circle cx="72.0" cy="305.4" fill="#8b5cf6" r="4"><title>混合 2023：236,564人</title></circle><circle cx="461.0" cy="301.7" fill="#8b5cf6" r="4"><title>混合 2024：251,581人</title></circle><circle cx="850.0" cy="300.9" fill="#8b5cf6" r="4"><title>混合 2025：254,564人</title></circle><rect fill="#8b5cf6" height="12" rx="3" width="12" x="870" y="114"></rect><text class="legend-text" x="890" y="124">混合</text><line class="axis" x1="72" x2="850" y1="364" y2="364"></line><line class="axis" x1="72" x2="72" y1="42" y2="364"></line><text class="axis-title" text-anchor="middle" x="461.0" y="416">年度</text><text class="axis-title rotate" text-anchor="middle" x="20" y="203.0">一日平均進出人數</text></svg>
 </div>
 <div class="type-grid">
 <article class="type-card">
-<h3><span class="cat tourism">觀光</span></h3>
+<h3><span class="cat tourism">觀光型</span></h3>
 <div class="type-bars">
 <div class="type-row"><strong>2023</strong><div class="type-track"><span style="width:93.01%"></span></div><b>384,865</b></div>
 <div class="type-row"><strong>2024</strong><div class="type-track"><span style="width:98.83%"></span></div><b>408,948</b></div>
@@ -1545,7 +1567,7 @@
 <small>4 個站點，2025平均每站 103,448 人／日</small>
 </article>
 <article class="type-card">
-<h3><span class="cat business">商務</span></h3>
+<h3><span class="cat business">商務型</span></h3>
 <div class="type-bars">
 <div class="type-row"><strong>2023</strong><div class="type-track"><span style="width:91.15%"></span></div><b>564,494</b></div>
 <div class="type-row"><strong>2024</strong><div class="type-track"><span style="width:96.43%"></span></div><b>597,234</b></div>
@@ -1555,7 +1577,7 @@
 <small>6 個站點，2025平均每站 103,222 人／日</small>
 </article>
 <article class="type-card">
-<h3><span class="cat mixed">混合</span></h3>
+<h3><span class="cat mixed">混合型</span></h3>
 <div class="type-bars">
 <div class="type-row"><strong>2023</strong><div class="type-track"><span style="width:92.93%"></span></div><b>236,564</b></div>
 <div class="type-row"><strong>2024</strong><div class="type-track"><span style="width:98.83%"></span></div><b>251,581</b></div>
@@ -1569,7 +1591,7 @@
 <table>
 <thead>
 <tr>
-<th>站區類型</th>
+<th>站區周邊機能</th>
 <th>站點數</th>
 <th>2023合計</th>
 <th>2024合計</th>
@@ -1581,7 +1603,7 @@
 </thead>
 <tbody>
 <tr>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">4</td>
 <td class="num">384,865</td>
 <td class="num">408,948</td>
@@ -1591,7 +1613,7 @@
 <td class="num">103,448</td>
 </tr>
 <tr>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">6</td>
 <td class="num">564,494</td>
 <td class="num">597,234</td>
@@ -1601,7 +1623,7 @@
 <td class="num">103,222</td>
 </tr>
 <tr>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">4</td>
 <td class="num">236,564</td>
 <td class="num">251,581</td>
@@ -1618,7 +1640,7 @@
 <thead>
 <tr>
 <th>車站</th>
-<th>站區特色</th>
+<th>站區周邊機能</th>
 <th>2023年</th>
 <th>2024年</th>
 <th>2025年</th>
@@ -1629,7 +1651,7 @@
 <tbody>
 <tr>
 <td><strong>銀座</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">217,244</td>
 <td class="num">230,271</td>
 <td class="num">233,901</td>
@@ -1637,7 +1659,7 @@
 <td class="num pos">+7.7%</td>
 </tr><tr>
 <td><strong>日本橋</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">163,127</td>
 <td class="num">175,343</td>
 <td class="num">181,982</td>
@@ -1645,7 +1667,7 @@
 <td class="num pos">+11.6%</td>
 </tr><tr>
 <td><strong>三越前</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">110,666</td>
 <td class="num">117,531</td>
 <td class="num">121,017</td>
@@ -1653,7 +1675,7 @@
 <td class="num pos">+9.4%</td>
 </tr><tr>
 <td><strong>茅場町</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">105,877</td>
 <td class="num">112,343</td>
 <td class="num">115,870</td>
@@ -1661,7 +1683,7 @@
 <td class="num pos">+9.4%</td>
 </tr><tr>
 <td><strong>八丁堀</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">98,923</td>
 <td class="num">100,461</td>
 <td class="num">104,411</td>
@@ -1669,7 +1691,7 @@
 <td class="num pos">+5.5%</td>
 </tr><tr>
 <td><strong>東銀座</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">76,513</td>
 <td class="num">84,524</td>
 <td class="num">85,379</td>
@@ -1677,7 +1699,7 @@
 <td class="num pos">+11.6%</td>
 </tr><tr>
 <td><strong>人形町</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">65,602</td>
 <td class="num">80,254</td>
 <td class="num">80,742</td>
@@ -1685,7 +1707,7 @@
 <td class="num pos">+23.1%</td>
 </tr><tr>
 <td><strong>月島</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">67,069</td>
 <td class="num">69,795</td>
 <td class="num">71,329</td>
@@ -1693,7 +1715,7 @@
 <td class="num pos">+6.4%</td>
 </tr><tr>
 <td><strong>水天宮前</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">68,185</td>
 <td class="num">64,907</td>
 <td class="num">65,487</td>
@@ -1701,7 +1723,7 @@
 <td class="num neg">-4.0%</td>
 </tr><tr>
 <td><strong>京橋</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">50,698</td>
 <td class="num">55,488</td>
 <td class="num">59,920</td>
@@ -1709,7 +1731,7 @@
 <td class="num pos">+18.2%</td>
 </tr><tr>
 <td><strong>築地</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">58,868</td>
 <td class="num">60,348</td>
 <td class="num">59,809</td>
@@ -1717,7 +1739,7 @@
 <td class="num pos">+1.6%</td>
 </tr><tr>
 <td><strong>新富町</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat mixed">混合</span></td>
+<td><span class="cat mixed">混合型</span></td>
 <td class="num">35,708</td>
 <td class="num">36,625</td>
 <td class="num">37,006</td>
@@ -1725,7 +1747,7 @@
 <td class="num pos">+3.6%</td>
 </tr><tr>
 <td><strong>小傳馬町</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat business">商務</span></td>
+<td><span class="cat business">商務型</span></td>
 <td class="num">35,203</td>
 <td class="num">36,068</td>
 <td class="num">36,133</td>
@@ -1733,7 +1755,7 @@
 <td class="num pos">+2.6%</td>
 </tr><tr>
 <td><strong>銀座一丁目</strong><span class="sub">東京地下鐵</span></td>
-<td><span class="cat tourism">觀光</span></td>
+<td><span class="cat tourism">觀光型</span></td>
 <td class="num">32,240</td>
 <td class="num">33,805</td>
 <td class="num">34,705</td>
@@ -1746,11 +1768,11 @@
 <div class="mini-conclusion">
 <strong>短期趨勢小結：</strong>
     從 2023 到 2025，中央區東京地下鐵車站合計人流由 1,185,923 增加至 1,287,691，
-    三年間增加 101,768 人／日（+8.6%）。其中商務站合計規模最大，
-    但觀光站的回升幅度也相當明顯；若從 2025 年平均每站規模來看，商務站仍高於觀光站與混合站。
+    三年間增加 101,768 人／日（+8.6%）。其中商務型合計規模最大，
+    但觀光型的回升幅度也相當明顯；若從 2025 年平均每站規模來看，商務型仍高於觀光型與混合型。
   </div>
 </div>
-</section>
+</section><div class="data-scope-note first-page-bottom-note"><strong>註：</strong>東京地下鐵資料依官方「2025 年度一日平均」整理；都營地下鐵資料依官方「2024 年 4 月～2025 年 3 月」一日平均乘降人員整理。不同營運單位的年度範圍可能不同，因此本報告作為近年人流規模比較使用。</div>
 <section class="doc-page2" id="page2">
 <div class="page2-hero doc-title-card">
 <h2>2015–2025 年赴日旅客與商務人流趨勢分析</h2>
