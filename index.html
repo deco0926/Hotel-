@@ -545,6 +545,102 @@
     .source-card a:hover {
       text-decoration:underline;
     }
+
+
+    .method-card {
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:26px;
+      padding:24px;
+      box-shadow:0 14px 32px rgba(15,35,65,.08);
+    }
+    .method-lead {
+      background:linear-gradient(135deg,#ffffff,#f8fafc);
+      border:1px solid var(--line);
+      border-radius:22px;
+      padding:20px 22px;
+      margin-bottom:18px;
+    }
+    .method-lead h3,
+    .method-rule h3,
+    .method-type h3 {
+      margin:0 0 8px;
+      color:#102a43;
+    }
+    .method-lead p,
+    .method-type p,
+    .method-rule p {
+      margin:8px 0 0;
+      color:#334155;
+      line-height:1.75;
+    }
+    .method-grid {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+    }
+    .method-type {
+      border:1px solid var(--line);
+      border-radius:22px;
+      padding:20px;
+      background:#fff;
+      box-shadow:0 10px 24px rgba(15,35,65,.06);
+    }
+    .method-type ul {
+      margin:12px 0 0;
+      padding-left:20px;
+      color:#334155;
+    }
+    .method-type li {
+      margin:6px 0;
+      line-height:1.6;
+    }
+    .method-example {
+      margin-top:12px !important;
+      color:#64748b !important;
+      font-size:13px;
+      font-weight:800;
+    }
+    .method-rule {
+      margin-top:18px;
+      background:#eff6ff;
+      border:1px solid #bfdbfe;
+      border-radius:22px;
+      padding:18px 20px;
+    }
+    @media (max-width:980px) {
+      .method-grid {
+        grid-template-columns:1fr;
+      }
+    }
+
+
+    .method-table {
+      margin:14px 0 12px;
+      padding:0;
+      box-shadow:none;
+      border-radius:18px;
+      overflow-x:auto;
+    }
+    .method-table table {
+      min-width:860px;
+    }
+    .method-caution {
+      margin-top:18px;
+      background:#f8fafc;
+      border:1px dashed #cbd5e1;
+      border-radius:22px;
+      padding:18px 20px;
+    }
+    .method-caution h3 {
+      margin:0 0 8px;
+      color:#102a43;
+    }
+    .method-caution p {
+      margin:0;
+      color:#475569;
+      line-height:1.75;
+    }
 </style>
 </head>
 <body>
@@ -582,7 +678,118 @@
 </svg>
 </div>
 </section>
-<section id="table">
+<section id="station-type-method">
+<div class="section-title">
+<h2>站區特色分類方式</h2>
+<p>此分類用來說明地鐵站周邊主要功能，不代表每位進出站旅客的實際目的。</p>
+</div>
+<div class="method-card">
+<div class="method-lead">
+<h3>分類範圍設定</h3>
+<p>
+        本報告以各地鐵站主要出入口為中心，觀察其周邊約 <strong>1 公里範圍</strong>
+        （約步行 10～15 分鐘）內的土地使用、商業設施、辦公機能、觀光資源、生活機能與交通轉乘功能，
+        再將站區特色簡化為「觀光、商務、混合」三類。
+      </p>
+<p>
+        需要注意的是，地鐵進出人數只能代表人流規模，不能直接判斷旅客身分。
+        因此這裡的站區特色是根據「周邊環境功能」進行分類，而不是直接認定進出站者都是觀光客或商務客。
+      </p>
+</div>
+<div class="method-rule">
+<h3>操作型判斷方式</h3>
+<p>
+        為了避免「以觀光為主」或「以商務為主」過於主觀，本報告將站點周邊 1 公里內的主要機能分成
+        <strong>觀光消費機能</strong>、<strong>商務辦公機能</strong>、<strong>生活混合機能</strong>三類，
+        並以各類機能在周邊環境中的相對占比作為分類依據。
+      </p>
+<div class="table-card page2-table method-table">
+<table>
+<thead>
+<tr>
+<th>分類</th>
+<th>明確判斷門檻</th>
+<th>主要觀察指標</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="cat tourism">觀光</span></td>
+<td>
+                觀光消費機能占比 <strong>50% 以上</strong>，且高於商務辦公機能至少 <strong>10 個百分點</strong>。
+              </td>
+<td>
+                百貨、商店街、餐飲集中區、景點、文化設施、劇場、觀光市場、外國旅客常去區域。
+              </td>
+</tr>
+<tr>
+<td><span class="cat business">商務</span></td>
+<td>
+                商務辦公機能占比 <strong>50% 以上</strong>，且高於觀光消費機能至少 <strong>10 個百分點</strong>。
+              </td>
+<td>
+                辦公大樓、企業總部、金融機構、商業服務、會議拜訪需求、工作日通勤需求。
+              </td>
+</tr>
+<tr>
+<td><span class="cat mixed">混合</span></td>
+<td>
+                沒有單一機能占比達 <strong>50% 以上</strong>，或觀光與商務差距小於 <strong>10 個百分點</strong>；
+                另外，若生活住宅、轉乘與在地商業機能占比達 <strong>30% 以上</strong>，也歸為混合。
+              </td>
+<td>
+                住宅、在地商店、生活機能、交通轉乘、辦公與觀光並存、區域功能不單一。
+              </td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>
+        簡單來說，若某一類功能在 1 公里範圍內明顯過半，就歸為該類；若沒有明顯過半，或兩類功能接近，
+        則不硬分為觀光或商務，而歸為混合型站區。
+      </p>
+</div>
+<div class="method-grid">
+<article class="method-type">
+<h3><span class="cat tourism">觀光</span></h3>
+<p>
+          站點周邊 1 公里內，觀光消費相關機能占比達 50% 以上，且明顯高於商務機能。
+        </p>
+<ul>
+<li>百貨公司、商店街、精品店、餐飲集中區明顯。</li>
+<li>周邊具有觀光景點、劇場、市場或城市觀光吸引力。</li>
+<li>人流較容易受到觀光、購物、餐飲與假日休閒需求影響。</li>
+</ul>
+<p class="method-example">例：銀座、東銀座、築地、築地市場、銀座一丁目。</p>
+</article>
+<article class="method-type">
+<h3><span class="cat business">商務</span></h3>
+<p>
+          站點周邊 1 公里內，商務辦公相關機能占比達 50% 以上，且明顯高於觀光機能。
+        </p>
+<ul>
+<li>辦公大樓、企業據點、銀行、金融或商業服務機能集中。</li>
+<li>人流較容易受到上班、會議、企業拜訪與工作日移動影響。</li>
+<li>適合作為商務飯店、短期出差住宿需求的輔助判斷依據。</li>
+</ul>
+<p class="method-example">例：日本橋、三越前、茅場町、八丁堀、京橋、小傳馬町、寶町。</p>
+</article>
+<article class="method-type">
+<h3><span class="cat mixed">混合</span></h3>
+<p>
+          站點周邊 1 公里內，沒有單一機能占比超過 50%，或生活、轉乘、住宅與商業機能並存。
+        </p>
+<ul>
+<li>生活機能、住宅區、辦公機能與在地商業並存。</li>
+<li>人流來源較多元，可能包含通勤、居民生活、轉乘、觀光與商務拜訪。</li>
+<li>適合觀察中價位飯店、長住型住宿或服務型公寓需求。</li>
+</ul>
+<p class="method-example">例：人形町、水天宮前、東日本橋、馬喰橫山、月島、勝鬨、濱町。</p>
+</article>
+</div>
+
+</div>
+</section><section id="table">
 <div class="section-title"><div class="title-left"><h2>中央區各站 2015 vs 2025 進出人數比較表</h2><div class="title-source-row"><a class="src-badge" href="https://www.toukei.metro.tokyo.lg.jp/tnenkan/2015/tn15q3i004.htm" rel="noopener" target="_blank">2015來源</a> <a class="src-badge" href="https://www.tokyometro.jp/corporate/enterprise/passenger_rail/transportation/passengers/index.html" rel="noopener" target="_blank">2025 東京地下鐵</a> <a class="src-badge" href="https://www.kotsu.metro.tokyo.jp/subway/kanren/passengers.html" rel="noopener" target="_blank">都營地下鐵來源</a></div></div>
 <p>同名站若屬不同公司，將分開列出，例如日本橋、東銀座、人形町、月島。</p>
 </div>
@@ -1737,7 +1944,6 @@
 </table>
 </div>
 </div>
-
 </section>
 <section id="sources">
 <div class="section-title">
